@@ -38,18 +38,18 @@
 
 ## 三、项目目录结构
 GREE-JKF-RAG/
-├── .env # 环境变量密钥配置文件
-├── Dockerfile # Docker 镜像构建配置
-├── docker-compose.yml # 容器编排脚本
-├── requirements.txt # Python 依赖清单
-├── main.py # FastAPI 服务主入口
-├── pdf_parser.py # PDF 文本解析、切片工具
-├── vector_store.py # 向量库初始化、入库、检索逻辑
-├── llm_service.py # 大模型推理、双角色 Prompt 模板
-├── static/
-│ └── index.html # 前端问答网页
-├── volumes/
-│ └── qdrant_db/ # 向量库持久化存储目录
-└── scripts/ # 备份、运维定时脚本
+- ├── .env # 环境变量密钥配置文件
+- ├── Dockerfile # Docker 镜像构建配置
+- ├── docker-compose.yml # 容器编排脚本
+- ├── requirements.txt # Python 依赖清单
+- ├── main.py # FastAPI 服务主入口
+- ├── pdf_parser.py # PDF 文本解析、切片工具
+- ├── vector_store.py # 向量库初始化、入库、检索逻辑
+- ├── llm_service.py # 大模型推理、双角色 Prompt 模板
+- ├── static/
+- │ └── index.html # 前端问答网页
+- ├── volumes/
+- │ └── qdrant_db/ # 向量库持久化存储目录
+- └── scripts/ # 备份、运维定时脚本
 
 
